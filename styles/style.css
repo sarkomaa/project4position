@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e0d83c;
+}
+
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+
+.text.head {
+    font-size: 90px;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+ 
+
+.headertxt {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+}
+
+.abottxt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 300px;
+}
+
+.img2 {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.about11,
+.title2 {
+    font-size: 40px;
+    max-width: 500px;
+}
+
+.about12 {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.about11,
+.about12,
+.title2,
+.cardtxt,
+.endcontent {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 110px;
+}
+
+.title2 {
+    margin-bottom: 60px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 142px;
+}
+
+.cardimg {
+    width: 250px;
+    height: 250px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 25px;
+}
+
+.mcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: #8d9a2d;
+}
+
+.card {
+    max-width: 300px;
+}
+
+.cardtxt {
+    font-size: 20px;
+}
+
+.endcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 100px;
+}
+
+.citate {
+    font-size: 50px;
+}
+
+.whosay {
+    font-size: 25px;
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+
+.posle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.info {
+    height: 200px;
+    width: 1500px;
+    background-color: #a2bc20;
+    display: flex;
+    padding: 50px;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    border-color: #e0d83c;
+    background-color: #8d9a2d;
+    font-size: 40px;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #FFCF48;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+
+
